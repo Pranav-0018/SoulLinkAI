@@ -402,8 +402,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Time the response typing effect
     const delay = Math.max(800, Math.min(2000, userText.length * 12));
     
+    // Automatically use local server if running locally, otherwise use deployed Render backend URL
+    const backendUrl = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+      ? 'http://127.0.0.1:8000/api/analyze'
+      : 'https://soullinkai.onrender.com/api/analyze'; // Deployed Render URL
+      
     // Attempt to connect to Python FastAPI NLP Backend
-    fetch('http://127.0.0.1:8000/api/analyze', {
+    fetch(backendUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
