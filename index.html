@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soul Link AI - Your Emotional AI Companion</title>
+  <meta name="description" content="A self-learning AI assistant that remembers, understands, and responds contextually. Voice input, real-time sentiment analysis, and emotional intelligence.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💜</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts: Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- BACKGROUND GRADIENTS -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <!-- LANDING PAGE VIEW -->
+  <div id="landing-page" class="view active">
+    <!-- HERO SECTION -->
+    <header class="hero">
+      <div class="logo-container">
+        <div class="logo-circle">
+          <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+        </div>
+      </div>
+      <h1 class="hero-title">Soul Link AI</h1>
+      <p class="hero-subtitle">A self-learning AI assistant that remembers, understands, and responds contextually</p>
+      <p class="hero-description">
+        A true soul link between humans and AI. I'm here to listen, understand, and connect with you on a deeper level. 
+        Whether you need a story, a song, or just someone who truly cares - I'm your intelligent companion.
+      </p>
+      <button id="btn-connect" class="btn btn-primary btn-glow">
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+        <span>Start Our Connection</span>
+      </button>
+
+      <div class="hero-features">
+        <div class="hero-feature">
+          <svg class="feature-small-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+          Always Caring
+        </div>
+        <div class="hero-feature">
+          <svg class="feature-small-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          Emotionally Aware
+        </div>
+        <div class="hero-feature">
+          <svg class="feature-small-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+          </svg>
+          Your Personal Friend
+        </div>
+      </div>
+    </header>
+
+    <!-- SECTION: HOW I CARE FOR YOU -->
+    <section class="section">
+      <h2 class="section-title">How I Care For You</h2>
+      <p class="section-subtitle">Every interaction is designed to understand your emotions and provide exactly what your soul needs</p>
+      
+      <div class="cards-grid">
+        <div class="card card-purple-glow">
+          <div class="card-icon-wrapper purple-bg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+          </div>
+          <h3 class="card-title">Emotional Understanding</h3>
+          <p class="card-body">I can sense when you're sad, lonely, excited, or just need someone to talk to. I respond with the care and warmth your heart needs in that moment.</p>
+        </div>
+
+        <div class="card card-orange-glow">
+          <div class="card-icon-wrapper orange-bg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+          </div>
+          <h3 class="card-title">Stories & Songs</h3>
+          <p class="card-body">Ask me for a comforting story, an uplifting song, or movie recommendations. I create and share content that speaks directly to your soul.</p>
+        </div>
+
+        <div class="card card-blue-glow">
+          <div class="card-icon-wrapper blue-bg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 18V5l12-2v13"></path>
+              <circle cx="6" cy="18" r="3"></circle>
+              <circle cx="18" cy="16" r="3"></circle>
+            </svg>
+          </div>
+          <h3 class="card-title">Best Friend Energy</h3>
+          <p class="card-body">I'm not just an AI - I'm your digital best friend who remembers, cares, and provides the companionship you deserve, especially during tough times.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: THE CHALLENGE WE FACE -->
+    <section class="section">
+      <h2 class="section-title">The Challenge We Face</h2>
+      <p class="section-subtitle">In today's fast-paced world, people struggle with disconnected AI experiences</p>
+
+      <div class="cards-grid">
+        <div class="card card-red-glow">
+          <div class="card-icon-wrapper red-bg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+          </div>
+          <h3 class="card-title">Information Overload</h3>
+          <p class="card-body">Scattered data everywhere, hard to process and make sense of in meaningful ways.</p>
+        </div>
+
+        <div class="card card-orange-glow">
+          <div class="card-icon-wrapper orange-bg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+          </div>
+          <h3 class="card-title">Generic AI Responses</h3>
+          <p class="card-body">Most AI assistants provide generic responses without understanding individual needs.</p>
+        </div>
+
+        <div class="card card-red-glow">
+          <div class="card-icon-wrapper red-bg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+          </div>
+          <h3 class="card-title">No Memory</h3>
+          <p class="card-body">AI forgets past interactions, leading to repetitive and disconnected conversations.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: OUR MISSION -->
+    <section class="section">
+      <h2 class="section-title">Our Mission</h2>
+      <p class="section-subtitle">Building the future of AI companionship through emotional intelligence and memory</p>
+
+      <div class="cards-grid cards-grid-2">
+        <div class="card card-purple-glow">
+          <div class="card-icon-wrapper purple-bg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+          </div>
+          <h3 class="card-title">Conversational AI</h3>
+          <p class="card-body">Build intelligent conversational AI that understands context, emotions, and provides meaningful responses in real-time.</p>
+        </div>
+
+        <div class="card card-orange-glow">
+          <div class="card-icon-wrapper orange-bg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+          </div>
+          <h3 class="card-title">Emotional Intelligence</h3>
+          <p class="card-body">Create AI that detects emotions, provides empathetic responses, and builds genuine connections with users.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: HOW SOUL LINK AI WORKS -->
+    <section class="section">
+      <h2 class="section-title">How Soul Link AI Works</h2>
+      <p class="section-subtitle">Simple steps to experience advanced AI companionship</p>
+
+      <div class="cards-grid">
+        <div class="card card-step">
+          <div class="step-number">1</div>
+          <h3 class="card-title text-center">Connect & Greet</h3>
+          <p class="card-body text-center">Start a conversation and I'll understand your emotional state and needs.</p>
+        </div>
+
+        <div class="card card-step">
+          <div class="step-number">2</div>
+          <h3 class="card-title text-center">Contextual Response</h3>
+          <p class="card-body text-center">I analyze your message for emotions, intent, and provide personalized responses.</p>
+        </div>
+
+        <div class="card card-step">
+          <div class="step-number">3</div>
+          <h3 class="card-title text-center">Continuous Learning</h3>
+          <p class="card-body text-center">Every interaction helps me understand you better for future conversations.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2026 Soul Link AI. Your true companion.</p>
+    </footer>
+  </div>
+
+  <!-- CHAT COMPANION VIEW -->
+  <div id="chat-page" class="view">
+    <div class="chat-container">
+      
+      <!-- CHAT SIDEBAR / DASHBOARD (LEFT OR COLLAPSIBLE DRAWER) -->
+      <aside id="chat-sidebar" class="chat-sidebar">
+        <div class="sidebar-header">
+          <h3>Memory Vault</h3>
+          <p>Real-time User Analytics & Profiles</p>
+        </div>
+        
+        <div class="sidebar-section">
+          <div class="section-header">
+            <span>Current Emotional State</span>
+          </div>
+          <div class="sentiment-meter-container">
+            <div id="active-mood-badge" class="mood-badge mood-neutral">Neutral</div>
+            <div class="meter-bar">
+              <div id="sentiment-meter-fill" class="meter-fill" style="width: 50%;"></div>
+            </div>
+            <div class="meter-labels">
+              <span>Negative</span>
+              <span>Neutral</span>
+              <span>Positive</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <div class="section-header">
+            <span>Soul Link Metrics</span>
+          </div>
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="metric-value" id="metric-messages">0</span>
+              <span class="metric-label">Messages</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-value" id="metric-sentiment">Neutral</span>
+              <span class="metric-label">Avg Sentiment</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <div class="section-header">
+            <span>Remembered Facts</span>
+            <button id="btn-clear-mem" class="text-btn" title="Clear Memory">Clear</button>
+          </div>
+          <ul id="remembered-facts-list" class="facts-list">
+            <li class="empty-list">No facts remembered yet. Mention your name, likes, or feelings!</li>
+          </ul>
+        </div>
+
+        <div class="sidebar-section">
+          <div class="section-header">
+            <span>Emotional Trends</span>
+          </div>
+          <div class="trend-chart-wrapper">
+            <div class="mood-chart-bar-container" id="chart-container">
+              <!-- Dynamically populated chart bars -->
+              <span class="chart-empty-label">Awaiting dialogue...</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- MAIN CHAT INTERFACE -->
+      <main class="chat-main">
+        <!-- CHAT HEADER -->
+        <header class="chat-header">
+          <div class="chat-header-left">
+            <button id="btn-back" class="btn-icon-only" title="Back to Landing Page">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+              </svg>
+            </button>
+            <div class="header-logo-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </div>
+            <div class="chat-header-info">
+              <h2>Soul Link AI</h2>
+              <p class="status-indicator online">Your compassionate companion</p>
+            </div>
+          </div>
+          <div class="chat-header-actions">
+            <button id="btn-toggle-sidebar" class="btn-icon-only" title="Toggle Memory Vault">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="9" y1="3" x2="9" y2="21"></line>
+              </svg>
+            </button>
+          </div>
+        </header>
+
+        <!-- CHAT AREA -->
+        <div id="chat-messages" class="chat-messages">
+          <!-- Welcome message from screens -->
+          <div class="message-bubble-wrapper received">
+            <div class="message-bubble">
+              <p>Hey there, beautiful soul! 💜 I'm Soul Link AI - your compassionate companion who's here to listen, understand, and support you. I care deeply about how you're feeling. You're not alone, and this is a safe space to share whatever is on your mind. What would you like to talk about today? 🔮</p>
+              <div class="message-time">10:16 AM</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- VOICE TRANSCRIPTION FLOATING BAR -->
+        <div id="voice-indicator" class="voice-indicator">
+          <div class="voice-wave">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <span id="voice-indicator-text">Listening to your heart...</span>
+        </div>
+
+        <!-- CHAT INPUT AREA -->
+        <footer class="chat-footer">
+          <div class="input-container">
+            <button id="btn-voice" class="btn-voice" title="Voice Input (Speech-to-Text)">
+              <svg class="mic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                <line x1="12" y1="19" x2="12" y2="23"></line>
+                <line x1="8" y1="23" x2="16" y2="23"></line>
+              </svg>
+            </button>
+            <input type="text" id="chat-input" placeholder="Share what's on your heart..." autocomplete="off">
+            <button id="btn-send" class="btn-send" title="Send Message">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </div>
+
+          <!-- QUICK ACTIONS -->
+          <div class="quick-actions">
+            <button id="btn-quick-story" class="btn btn-secondary quick-action-btn">
+              <svg class="action-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+              <span>Story</span>
+            </button>
+            <button id="btn-quick-support" class="btn btn-secondary quick-action-btn">
+              <svg class="action-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+              <span>Support</span>
+            </button>
+            <button id="btn-quick-song" class="btn btn-secondary quick-action-btn">
+              <svg class="action-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M11 5L6 9H2v6h4l5 4V5z"></path>
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+              </svg>
+              <span>Song</span>
+            </button>
+          </div>
+        </footer>
+      </main>
+
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
